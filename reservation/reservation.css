@@ -1,0 +1,106 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	background: grey;
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+	position: absolute;
+	float: right;
+}
+
+.container {
+	width: 500px;
+	height: 400px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	border: 0px solid #999;
+	margin-top: 200px;
+	margin-left: 20px; 
+	font-family: arial;
+	font-size: 15px;
+}
+
+form {
+	margin-left: 35px;
+}
+
+.form-input {
+	margin-bottom: 35px;
+}
+
+input[type=text], select, textarea {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+}
+
+input[type=submit]:hover {
+    background-color: #0d3000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+}
+
+h1 {
+	font-family: arial;
+	font-size: 30px;
+	text-align: center;
+}
+
+.container2 {
+	width: 800px;
+	height: 400px;
+	color: #fff;
+	border: 0px solid #999;
+	margin-top: 200px;
+	margin-left: 20px; 
+	font-family: arial;
+	font-size: 15px;
+}
+
+div {
+	float: left;
+}
+
+a:link, a:visited {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 40%;
+    border-radius: 10px;
+}
+
+a:hover {
+	background-color: #0d3000;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 40%;
+    border-radius: 10px;
+}
+
+img {
+    width: 50%;
+    margin-top: 8%;
+    margin-left: 25%;
+}
